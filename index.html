@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- FALTA CONTACTOS - E-MAIL, ETC. -->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <style>
+            body {
+                background-color: #073f4f;
+            }
+            div {
+                color: aliceblue;
+                font-family: "Segoe UI";
+            }
+            #rectangle {
+                padding-top: 10%;
+                margin: auto;
+                position: absolute;
+                height: 50%;
+                width: 30%;
+                background-color: #015066;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                border-radius: 10px;
+            }
+            #wrap {
+                width: 100%;
+                height: 100%;
+            }
+            #name {
+                position: absolute;
+                margin: auto;
+                font-size: 50px; 
+                top: 15%;
+                bottom: 0;
+                left: 38.5%;
+                right: 0;
+            }
+            #me {
+                position: relative;
+                top: -60%;
+                left: 20%
+            }
+            #student {
+                position: relative;
+                top: -60%;
+                left: 40%;
+            }
+            #prog {
+                position: relative;
+                top: -60%;
+                left: 10%;
+            }
+            #read {
+                position: relative;
+                top: -60%;
+                left: 37.5%;
+            }
+            #music {
+                position: relative;
+                top: -60%;
+                left: 10%;
+            }
+            .links {
+                font-size: 40px;
+            }
+            #twitter {
+                position: absolute;
+                top: 82.5%;
+                height: 12.5%;
+                width: 15%;
+                left: 15%;
+            }
+            #github {
+                position: absolute;
+                top: 82.5%;
+                height: 12.5%;
+                width: 15%;
+                left: 42.5%;   
+            }
+            #spotify {
+                position: absolute;
+                top: 82.5%;
+                height: 12.5%;
+                width: 15%;
+                left: 70%;   
+            }
+            .desc {
+                font-size: 22px;
+            }
+            #student_desc {
+                position: relative;
+                top: 5%;
+                right: 70%;
+                left: 7.5%;
+                width: 90%;
+            }
+            #student_wrap {
+                position: absolute;
+                right: 10%;
+                top: 15%;
+                height: 27.5%;
+                width: 20%;
+                background-color: #022630;
+            }
+            #prog_desc {
+                position: relative;
+                top: 5%;
+                right: 70%;
+                left: 7.5%;
+                width: 90%;
+            }
+            #prog_wrap {
+                position: absolute;
+                left: 10%;
+                top: 7.5%;
+                height: 50%;
+                width: 20%;
+                background-color: #022630;
+            }
+            #read_desc {
+                position: relative;
+                top: 5%;
+                right: 70%;
+                left: 7.5%;
+                width: 90%;
+            }
+            #read_wrap {
+                position: absolute;
+                right: 10%;
+                bottom: 20%;
+                height: 28%;
+                width: 20%;
+                background-color: #022630;
+            }
+            #music_desc {
+                position: relative;
+                top: 5%;
+                right: 70%;
+                left: 7.5%;
+                width: 90%;
+            }
+            #music_wrap {
+                position: absolute;
+                left: 10%;
+                bottom: 10%;
+                height: 28%;
+                width: 20%;
+                background-color: #022630;
+            }
+            .wrap {
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="name">bernardo franco.</div>
+            <div id="rectangle">
+                <div class="links" id="me">this is me.</div>
+                <div class="links" id="student">i´m a student.</div>
+                <div class="links" id="prog">i like programming.</div>
+                <div class="links" id="read">i enjoy reading.</div>
+                <div class="links" id="music">i'm into indie music.</div>
+                <a href="https://twitter.com/laxnring"><img id="twitter" src="twitter.svg"></a>
+                <a href="https://github.com/Laxnring"><img id="github" src="github.svg"></a>
+                <a href="https://open.spotify.com/user/bfrancamente"><img id="spotify" src="spotify.svg"></a>
+            </div>
+            <div id="desc-left">
+                <div class="wrap" id="student_wrap" style="display:none;">
+                    <div class="desc" id="student_desc">I'm currently an undergraduate student enrolled in the Integrated Masters of Electrical Engineering and Computers at <a href="http://fe.up.pt/">FEUP</a> in Porto, Portugal.
+                    </div>
+                </div>
+                <div class="wrap" id="prog_wrap" style="display:none;">
+                    <div class="desc" id="prog_desc">
+                        Three years ago, a teacher of mine at school introduced me to the world of programming through Objective-C. And it grew into a passion. I've since picked up C and Python, while dwelling in some PHP and general Web Design. You can check some of my work on <a href="https://github.com/Laxnring">Github</a>!
+                    </div>
+                </div>
+                <div class="wrap" id="read_wrap" style="display:none;">
+                    <div class="desc" id="read_desc">
+                        I mostly consume articles and technical blogs. And since RSS hasn´t made a comeback yet, you can check what I've been enjoying right here... 
+                    </div>
+                </div>
+                <div class="wrap" id="music_wrap" style="display:none;">
+                    <div class="desc" id="music_desc">
+                        I'm an avid fan of Radiohead, Metronomy, Unknown Mortal Orchestra and a lot of other indie/alt-rock bands. Check out my playlists on <a href="https://open.spotify.com/user/bfrancamente">Spotify</a>!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        $("#student").hover(function() {
+            $("#student_wrap").show(); 
+        });
+        $("#prog").hover(function() {
+            $("#prog_wrap").show(); 
+        });
+        $("#read").hover(function() {
+            $("#read_wrap").show(); 
+        });
+        $("#music").hover(function() {
+            $("#music_wrap").show(); 
+        });
+    </script>
+</html>
