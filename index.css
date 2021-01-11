@@ -95,13 +95,12 @@ footer {
         grid-template-rows: repeat(8, 1fr);
         font-family: 'Crete Round', serif;
         height: 200vh;
-        background-color: #ffffff;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .side-bar {
         grid-column: 1 / 5;
         grid-row: 1 / 1;
-        background-color: #e09244;
-        color: #4d4d4c;
         text-align: center;
         border-radius: 5px;
         font-size: 80%;
@@ -142,8 +141,6 @@ footer {
         grid-row: 8 / 8;
         grid-column: 1 / 5;
         display: initial;
-        background-color: #e09244;
-        color: #4d4d4c;
         text-align: center;
         border-radius: 5px;
         font-size: 80%;
@@ -170,8 +167,6 @@ footer {
     .side-bar {
         grid-column: 1 / 5;
         grid-row: 1 / 1;
-        background-color: #e09244;
-        color: #4d4d4c;
         text-align: center;
         border-radius: 5px;
         font-size: 80%;
