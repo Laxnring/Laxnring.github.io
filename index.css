@@ -191,7 +191,7 @@ footer {
     }
     .main-bar {
         padding-top: 0%;
-        grid-column: 1 / 5;
+        grid-column: 1 / 4;
         grid-row: 2/4;
         text-align: justify;
         font-family: 'Lato', Verdana, Helvetica, sans-serif;
