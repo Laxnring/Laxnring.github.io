@@ -170,8 +170,6 @@ footer {
     .side-bar {
         grid-column: 1 / 5;
         grid-row: 1 / 1;
-        background-color: #e09244;
-        color: #4d4d4c;
         text-align: center;
         border-radius: 5px;
         font-size: 80%;
